@@ -1,0 +1,19 @@
+.message{
+	display: flex;
+	align-items: center;
+	padding: 20px;
+}
+
+.message > img {
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+	object-fit: contain;
+	padding-left: 0;
+	padding: 5px;
+}
+.message__timestamp {
+	color: gray;
+	font-weight: 300;
+	font-size: 13px;
+}

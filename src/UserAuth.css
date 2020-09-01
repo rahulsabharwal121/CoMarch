@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.google__signin {
+	cursor: pointer;
+	display: flex;
+	height: 35px;
+	background-color: white;
+	align-items: center;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px; 
+	border-radius: 20px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 12);
+}
+.google__signin > img {
+	height: 30px;
+	object-fit: contain;;
+	margin-left: 50px;
+}
+
+.google__signin > h1 {
+	margin-left: 50px;
+	font-size: 20px;
+	color: darkgray;
+}
+
+.login {
+	height: 100vh;
+	background-color: var(--com-color);
+	display: grid;
+	place-items: center;
+}
+
+.login__container {
+	padding: 50px;
+	text-align: center;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 12);}
+
+.login__container > img {
+	object-fit: contain;
+	height: 100px;
+}
+.login__container > h1 {
+	font-family: 'Pacifico', cursive;
+	color: var(--com-color);
+	margin-bottom: 50px;
+}
+.login__container > button {
+	margin-top:  50px;
+	text-transform: inherit !important;
+	background-color: #0a8d48 !important;
+	color: white;
+}
