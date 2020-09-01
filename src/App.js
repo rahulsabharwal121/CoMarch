@@ -6,6 +6,7 @@ import Chat from './Chat.js'
 import UserAuth from './UserAuth'
 import { useStateValue } from './StateProvider'
 import { BrowserRouter as Router, Switch,  Route} from 'react-router-dom'
+import StartChat from './StartChat'
 
 function App() {
   const [{user}, dispatch] = useStateValue();
@@ -29,6 +30,7 @@ function App() {
       </Route>
 
       <Route path="/">
+        <StartChat />
       </Route>
 
       </Switch>

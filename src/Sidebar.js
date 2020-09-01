@@ -28,7 +28,6 @@ function Sidebar() {
 		<div className="sidebar">
 		<div className="sidebar__header">
 			<div className="sidebar__info">
-			<h2>CoMarch</h2>
 			<h3>
 			<FiberManualRecordIcon/>
 			{user?.displayName}
@@ -37,7 +36,7 @@ function Sidebar() {
 		<CreateIcon />
 		</div>
 		<hr />
-		<SidebarOption className="add"  Icon={AddCircleOutlinedIcon} addChannelOption={true} title="Add channel" />
+		<SidebarOption className="add"  Icon={AddCircleOutlinedIcon} addChannelOption={true} title="Add Topic" />
 		<hr />
 		{channels.map(channel => (
 			<SidebarOption title={channel.name} id={channel.id}/>

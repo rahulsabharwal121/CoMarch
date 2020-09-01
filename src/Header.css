@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
 .header {
     display: flex;
     align-items: center;
@@ -7,32 +10,20 @@
     color: white;
 }
 .header__left {
+	font-family: 'Pacifico', cursive;
 	flex: 0.3;
 	display: flex;
 	align-items: center;
 	margin-left: 20px;
 }
-
-.header__left > .MuiSvgIcon-root {
-	margin-left: auto;
-	margin-right: 30px;
+.header__left > h1 {
+	font-size: 25px;
 }
 
-.header__search {
-	flex: 0.4;
-	background-color: #1b2930;
-	text-align: center;
-	display: flex;
-	padding: 0 auto;
-	color: grey;
-	border: 1px gray solid;
-	border-radius: 6px;
-}
-
-.header__search > input {
-	background-color: transparent;
-	border: none;
-	min-width: 35px;
+.cmlogo {
+	padding-right: 15px;
+	height: 30px;
+	object-fit: contain;
 }
 
 .header__right{
@@ -41,7 +32,7 @@
 	align-items: flex-end;
 }
 
-.header__right > .MuiSvgIcon-root {
+.header__avatar {
 	margin-left: auto;
 	margin-right: 20px;
 }
