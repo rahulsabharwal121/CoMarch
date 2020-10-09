@@ -44,7 +44,7 @@
 }
 .login__container > h1 {
 	font-family: 'Pacifico', cursive;
-	color: var(--com-color);
+	color: #001038;
 	margin-bottom: 50px;
 }
 .login__container > button {

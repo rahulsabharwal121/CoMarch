@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
-
 .header {
+	overflow: hidden;
+	width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 0;
-    background-color:  #131c21;
+	padding: 10px 0;
+	position: fixed;
+    background-color:  #003acf;
     color: white;
 }
 .header__left {

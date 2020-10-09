@@ -2,7 +2,7 @@ import React from 'react'
 
 function StartChat() {
 	return (
-		<div>
+		<div className="start__chat">
 		Choose Topic to Chat
 		OR
 		Create Topic

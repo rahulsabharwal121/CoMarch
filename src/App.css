@@ -1,12 +1,11 @@
 * {
   margin: 0;
 }
-
-body {
-  --com-color: #131c21;
+.App{
+  height: 100vh;
+  overflow: hidden;
 }
 
-.app__body {
-  display: flex;
-  height: 100vh;
+body {
+  --com-color: #003acf;
 }

@@ -39,7 +39,7 @@ console.log(roomMessages);
 			</h4>
 			</div>
 			<div className="chat__headerRight">
-			<p><InfoOutlinedIcon />Details</p>
+			<p className="detail"><InfoOutlinedIcon />Details</p>
 			</div>
 		</div>
 		<div className="chat__messages">

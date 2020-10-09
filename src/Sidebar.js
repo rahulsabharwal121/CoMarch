@@ -28,7 +28,7 @@ function Sidebar() {
 		<div className="sidebar">
 		<div className="sidebar__header">
 			<div className="sidebar__info">
-			<h3>
+			<h3 style={{marginRight: 5}}>
 			<FiberManualRecordIcon/>
 			{user?.displayName}
 			</h3>
@@ -36,13 +36,13 @@ function Sidebar() {
 		<CreateIcon />
 		</div>
 		<hr />
-		<SidebarOption className="add"  Icon={AddCircleOutlinedIcon} addChannelOption={true} title="Add Topic" />
+		<SidebarOption className="add"  Icon={AddCircleOutlinedIcon} addChannelOption={true} title="Add Topic  " />
 		<hr />
 		{channels.map(channel => (
 			<SidebarOption title={channel.name} id={channel.id}/>
 			))}
 		</div>
-		)
+	)
 }
 
 export default Sidebar

@@ -1,10 +1,21 @@
 .chat{
+	overflow-y: scroll;
+	height: 460px;
 	flex: 0.7;
 	flex-grow: 1;
-	overflow-y: scroll;
 	padding-bottom: 150px;
+	padding-top: 60px;
+	margin-left: 180px;
+	width: 90%;
+}
+.detail{
+	padding-right: 80px;
 }
 .chat__header {
+	margin-top: 4px;
+	width: 90%;
+	background-color: white;
+	position: fixed;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -30,4 +41,7 @@
 .chat__headerRight > p > .MuiSvgIcon-root {
 	margin-right: 5px !important;
 	font-size: 16px;
+}
+.chat__messages{
+	padding-top: 60px;
 }

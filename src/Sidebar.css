@@ -1,16 +1,26 @@
 .sidebar {
-	flex: 0.3;
-	background-color:  #131c21;
-	border-top: 1px solid #49274b;
+	margin-top: 64px;;
+	position: fixed;
+	height: 700px;
+	background-color:  #003acf;
+	border-top: 1px solid #110038;
 	max-width: 180px;
 	color: white;
+	overflow-y: auto;
 }
 
+.sidebar::-webkit-scrollbar{
+	width: 1em;
+}
 .sidebar__header {
+	
 display: flex;
-border-bottom: 1px solid #49274b;
+align-items: center;
+border-bottom: 1px solid #110038;
 padding: 13px;
-padding-bottom: 10px ;
+}
+.sidebar__header > h3{
+	margin-right: 2px;
 }
 
 .sidebar__info {
