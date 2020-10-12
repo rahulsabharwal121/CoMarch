@@ -3,8 +3,8 @@ import './Sidebar.css'
 import FiberManualRecordIcon from '@material-ui/icons/FiberManualRecord';
 import CreateIcon from '@material-ui/icons/Create';
 import SidebarOption from "./SidebarOption.js"
-import db from "./firebase"
-import { useStateValue } from './StateProvider'
+import db from "../firebase"
+import { useStateValue } from '../StateProvider'
 import AddCircleOutlinedIcon from '@material-ui/icons/AddCircleOutlined';
 
 
